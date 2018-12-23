@@ -1,0 +1,11 @@
+logs
+*.log
+pids
+node_modules/
+.idea/
+.npm
+*.dat
+config.js
+databases/
+config
+
