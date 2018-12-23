@@ -1,7 +1,7 @@
 [![MIT License][license-image]][license-url]
 
 # About coding-and-more-blog
-This project is a blog engine adapted to my needs to run my own blog online. It's based on [Total.js Framework]https://www.totaljs.com/ using the [blog Engine]https://github.com/totaljs/blogengine
+This project is a blog engine adapted to my needs to run my own blog online. It's based on [Total.js Framework](https://www.totaljs.com/) using the [blog Engine](https://github.com/totaljs/blogengine)
 
 # The Blog
 
