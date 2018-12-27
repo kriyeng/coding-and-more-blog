@@ -9,3 +9,4 @@ config.js
 databases/
 config
 tmp/
+debug.pid

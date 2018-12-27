@@ -177,7 +177,7 @@ button { outline: 0; }
 .ui-textbox div { width: 1%; position: relative; vertical-align: middle; display: table-cell; text-align: center; white-space: nowrap; text-overflow: clip; border-left: 1px solid #E0E0E0; width: 30px; color: silver; user-select: none; }
 .ui-textbox-label { margin-bottom: 5px; font-size: 12px; text-align: left; }
 .ui-textbox-label .fa { width: 14px; }
-.ui-textbox-label-required:before { color: red; content: '***'; margin-right: 5px; }
+.ui-textbox-label-required:before { color: #AF115E; content: '***'; margin-right: 5px; }
 .ui-textbox-invalid { border-color: #E7B8B8 !important; background-color: #FFF3F3 !important; }
 .ui-textbox-invalid input { background-color: #FFF3F3 !important; }
 .ui-textbox .fa-times { color: red; cursor: pointer; }
@@ -193,7 +193,7 @@ button { outline: 0; }
 .ui-textarea textarea { border: 0; width: 100%; outline: 0; font: normal 14px Arial; color: black; resize: none; min-height: 50px; background-color: white; padding: 0; }
 .ui-textarea-label { margin-bottom: 5px; font-size: 12px; text-align: left; color: #656D78; }
 .ui-textarea-label .fa { width: 14px; }
-.ui-textarea-label-required:before { color: red; content: '***'; margin-right: 5px; }
+.ui-textarea-label-required:before { color: #AF115E; content: '***'; margin-right: 5px; }
 .ui-textarea-invalid { border-color: #E7B8B8 !important; background-color: #FFF3F3 !important; }
 .ui-textarea-invalid textarea { background-color: #FFF3F3 !important; }
 .ui-textarea-code textarea { font-family: monospace; font-size: 14px; }
@@ -256,7 +256,7 @@ label span { vertical-align: middle; }
 .ui-message-visible .ui-message-body { transform: scale(1); }
 
 .markdown { font-size: 16px; line-height: 22px; font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; color: #404040; }
-.markdown h1 { margin: 0 0 20px; font-size: 30px; padding: 0 0 13px; border-bottom: 1px solid #E0E0E0; color: black; line-height: 38px; font-family: Arial, sans-serif; }
+.markdown h1 { margin: 0 0 20px; font-size: 30px; padding: 0 0 13px; border-bottom: 1px solid #E0E0E0; color: #583a86; line-height: 38px; font-family: Arial, sans-serif; }
 .markdown h2 { margin: 30px 0 18px; font-weight: bold; font-size: 25px; padding: 0 0 8px; border-bottom: 1px solid #E0E0E0; color: black; line-height: 28px; font-family: Arial, sans-serif; }
 .markdown h3, .markdown h4, .markdown h5 { margin: 30px 0 10px; font-size: 20px; padding: 0 0 5px; color: #404040; font-weight: bold; line-height: 22px; font-family: Arial, sans-serif; }
 .markdown p { margin: 0 0 20px; }
