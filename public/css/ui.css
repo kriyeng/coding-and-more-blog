@@ -256,7 +256,7 @@ label span { vertical-align: middle; }
 .ui-message-visible .ui-message-body { transform: scale(1); }
 
 .markdown { font-size: 16px; line-height: 22px; font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; color: #404040; }
-.markdown h1 { margin: 0 0 20px; font-size: 30px; padding: 0 0 13px; border-bottom: 1px solid #E0E0E0; color: #583a86; line-height: 38px; font-family: Arial, sans-serif; }
+.markdown h1 { margin: 0 0 20px; font-size: 30px; padding: 0 0 13px; border-bottom: 1px solid #E0E0E0; color: #583a86; line-height: 38px; font-family: 'Source Sans Pro', sans-serif; }
 .markdown h2 { margin: 30px 0 18px; font-weight: bold; font-size: 25px; padding: 0 0 8px; border-bottom: 1px solid #E0E0E0; color: black; line-height: 28px; font-family: Arial, sans-serif; }
 .markdown h3, .markdown h4, .markdown h5 { margin: 30px 0 10px; font-size: 20px; padding: 0 0 5px; color: #404040; font-weight: bold; line-height: 22px; font-family: Arial, sans-serif; }
 .markdown p { margin: 0 0 20px; }
