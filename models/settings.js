@@ -68,7 +68,7 @@ NEWSCHEMA('Settings').make(function(schema) {
 
 			// Adds an admin (service) account
 			var sa = CONFIG('manager-superadmin').split(':');
-			F.config.custom.users.push({ name: 'Administrator', login: sa[0], password: sa[1], roles: [], sa: true });
+			F.config.custom.users.push({ name: 'David Ibáñez', login: sa[0], password: sa[1], roles: [], sa: true });
 
 			// Optimized for the performance
 			var users = {};
