@@ -7,7 +7,7 @@ exports.install = function() {
 
 	// COMMON
 	F.route(url + '/*', '~manager');
-	F.route(url + '/upload/picture/',          upload_picture,  ['post', 'upload', 10000], 3084); // 3 MB
+	F.route(url + '/upload/picture/',          upload_picture,  ['post', 'upload', 10000], 6168); // 3 MB
 	F.route(url + '/upload/markdown/',         upload_markdown, ['post', 'upload', 10000], 3084); // 3 MB
 	F.route(url + '/logoff/',                  redirect_logoff);
 
