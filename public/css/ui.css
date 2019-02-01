@@ -267,8 +267,8 @@ label span { vertical-align: middle; }
 .markdown ul { margin: 0 0 20px 0; padding: 0 0 0 2em; }
 li { margin-bottom: 15px; }
 .markdown th { background-color: #F8F8F8; }
-.markdown blockquote { padding: 0 15px; color: #8464B7; border-left: 4px solid #583A86; background-color: #F5EDFF; margin: 10px 0; }
-.markdown blockquote code { background-color: #D8C6F5 ; color: #583A86; }
+.markdown blockquote { padding: 15px 15px; color: #8464B7; border-left: 4px solid #583A86; background-color: #F9F5FF; margin: 10px 0; }
+.markdown blockquote code { background-color: #E1D4F7 ; color: #583A86; }
 .markdown hr { border-color: #E0E0E0; border-width: 2px; }
 
 .video { position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0; margin-bottom: 15px; }
