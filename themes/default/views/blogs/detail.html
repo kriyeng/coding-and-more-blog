@@ -1,4 +1,4 @@
-@{meta(model.name, model.perex, model.tags.join(', '))}
+@{meta(model.name, model.perex, model.tags.join(', '), 'http://blog.ibanyez.info/download/' + model.picture)}
 @{sitemap('detail')}
 @{sitemap_replace('category', model.category, model.category_linker, true)}
 @{sitemap_replace('detail', model.name, n => n.format(model.category_linker, model.linker))}
