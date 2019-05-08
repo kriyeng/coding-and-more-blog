@@ -15,10 +15,6 @@
 	@{import('meta', 'head', 'default.css', 'default.js', 'favicon.ico')}
 </head>
 <body data-jc="exec">
-
-	<div data-jc="cookie" class="hidden">@(This site uses cookies for visitor statistics. By continuing to browse the site you are agreeing to our use of cookies.) <a href="/privacy/">@(Privacy Policy)</a></div>
-	<div data-jc="message" data-button="@(Close)"></div>
-
 	<div class="container">
 		<div class="content" style="padding-top: 0">
 			<a href="/" title="Home">
@@ -72,6 +68,8 @@
 			<div>&copy; 2017 All rights reserved.</div>
 			&lt; <a href="https://www.totaljs.com" target="_blank" class="b black">Powered by Total.js framework</a> /&gt;
 		</footer>
+		<div data-jc="cookie" class="hidden">@(This site uses cookies for visitor statistics. By continuing to browse the site you are agreeing to our use of cookies.) <a href="/privacy/">@(Privacy Policy)</a></div>
+		<div data-jc="message" data-button="@(Close)"></div>
 	</div>
 
 	<script>
