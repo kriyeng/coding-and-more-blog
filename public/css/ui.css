@@ -255,7 +255,7 @@ label span { vertical-align: middle; }
 .ui-message-visible { opacity: 1; }
 .ui-message-visible .ui-message-body { transform: scale(1); }
 
-.markdown { font-size: 16px; line-height: 22px; font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; color: #404040; }
+.markdown { font-size: 16px; line-height: 24px; font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif; color: #404040; }
 .markdown h1 { margin: 0 0 20px; font-size: 30px; padding: 0 0 13px; border-bottom: 1px solid #E0E0E0; color: #583a86; line-height: 38px; font-family: 'Source Sans Pro', sans-serif; }
 .markdown h2 { margin: 30px 0 18px; font-weight: bold; font-size: 25px; padding: 0 0 8px; border-bottom: 1px solid #E0E0E0; color: black; line-height: 28px; font-family: Arial, sans-serif; }
 .markdown h3, .markdown h4, .markdown h5 { margin: 30px 0 10px; font-size: 20px; padding: 0 0 5px; color: #404040; font-weight: bold; line-height: 22px; font-family: Arial, sans-serif; }
@@ -265,8 +265,10 @@ label span { vertical-align: middle; }
 .markdown pre code { padding: 15px; font-size: 14px; line-height: 18px; }
 .markdown table { width: auto; }
 .markdown ul { margin: 0 0 20px 0; padding: 0 0 0 2em; }
+li { margin-bottom: 15px; }
 .markdown th { background-color: #F8F8F8; }
-.markdown blockquote { padding: 0 15px; color: #777; border-left: 4px solid #DDD; margin: 10px 0; }
+.markdown blockquote { padding: 15px 15px; color: #8464B7; border-left: 4px solid #583A86; background-color: #F9F5FF; margin: 10px 0; }
+.markdown blockquote code { background-color: #E1D4F7 ; color: #583A86; }
 .markdown hr { border-color: #E0E0E0; border-width: 2px; }
 
 .video { position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0; margin-bottom: 15px; }
