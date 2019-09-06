@@ -7,6 +7,7 @@ NEWSCHEMA('Comment').make(function(schema) {
 	schema.define('user', 'String(50)', true);
 	schema.define('email', 'Email', true);
 	schema.define('body', String, true);
+
 	schema.define('datecreated', Date);
 	schema.define('admin', Boolean);
 	schema.define('approved', Boolean);
@@ -38,6 +39,10 @@ NEWSCHEMA('Comment').make(function(schema) {
 
 			var data = {};
 			data.count = count;
+			for (var i=0; i<docs.length; i++){
+				var comment = docs[i];
+				comment.markdown = markdown(comment.body);
+			}
 			data.items = docs;
 			data.limit = options.max;
 			data.pages = Math.ceil(data.count / options.max) || 1;
