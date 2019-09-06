@@ -45,7 +45,7 @@ function json_comments_query(id) {
 	var self = this;
 	self.memorize('comments' + id, '1 minute', function() {
 		self.query.idblog = id;
-		self.query.max = 50;
+		self.query.max = 100;
 		self.query.approved = true;
 		self.$query(self, self.callback());
 	});
